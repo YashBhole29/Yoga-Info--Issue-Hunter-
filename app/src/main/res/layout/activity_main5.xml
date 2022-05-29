@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/orange">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/trikoasana" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/_uttanasana" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/vrksana" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/_shirshasana" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="571dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.435">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="235dp"
+            android:layout_height="203dp"
+            android:foregroundGravity="center_horizontal"
+            app:srcCompat="@drawable/_shirshasana" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Shirshasana"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="328dp"
+            android:layout_height="326dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:text="@string/in_the_supported_headstand_salamba_shirshasana_the_body_is_completely_inverted_and_held_upright_supported_by_the_forearms_and_the_crown_of_the_head_in_his_light_on_yoga_b_k_s_iyengar_uses_a_forearm_support_with_the_fingers_interlocked_around_the_head_for_the_basic_posture_shirshasana_i_and_its_variations_he_demonstrates_a_western_style_tripod_headstand_the_palms_of_the_hands_on_the_ground_with_raised_elbows_for_shirshasana_ii_and_iii_and_other_supports_for_further_variants_iyengar_names_and_illustrates_ten_variants_in_all_as_well_as_several_preparatory_and_transitional_poses"
+            />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/orange">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/trikoasana" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/_uttanasana" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/vrksana" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/_shirshasana" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="571dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.435">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="235dp"
+            android:layout_height="203dp"
+            android:foregroundGravity="center_horizontal"
+            app:srcCompat="@drawable/vrksana" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Vrkasana"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="328dp"
+            android:layout_height="326dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:text="@string/stand_straight_balance_firmly_on_your_left_leg_and_lift_your_right_leg_bend_your_right_leg_at_the_knee_now_place_your_right_foot_against_the_inside_of_your_left_thigh_make_sure_the_toes_of_your_right_foot_facing_downward_join_your_palms_in_prayer_at_your_chest_level_now_lift_your_arms_over_your_head_till_your_hands_are_stretched_upward_hold_the_position_while_breathing_deeply_lower_your_arms_to_chest_level_and_then_separate_your_palms_straighten_your_right_leg_and_stand_erect_again_repeat_the_posture_with_your_right_leg"
+            />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

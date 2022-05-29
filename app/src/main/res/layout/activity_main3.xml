@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/orange">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/trikoasana" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/_uttanasana" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/vrksana" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/_shirshasana" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="571dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.435">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="235dp"
+            android:layout_height="203dp"
+            android:foregroundGravity="center_horizontal"
+            app:srcCompat="@drawable/_uttanasana" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Uttanasana"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="328dp"
+            android:layout_height="326dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:text="@string/this_stretch_spans_the_lower_middle_and_upper_back_rises_up_the_neck_and_circles_over_the_scalp_and_back_down_the_forehead_finally_ending_at_the_point_between_the_eyebrows_says_lee_when_you_fold_forward_in_uttanasana_you_stretch_this_entire_sheath_of_muscles_and_connective_tissue_from_the_fulcrum_of_the_forward_bend_the_pelvis"
+            />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
